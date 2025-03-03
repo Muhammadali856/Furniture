@@ -34,7 +34,8 @@
     <link rel="stylesheet" href="{% static 'libs/font-material/css/material-design-iconic-font.min.css' %}">
     <link rel="stylesheet" href="{% static 'libs/slider-range/css/jslider.css' %}">
     <link rel="stylesheet" href="{% static 'libs/owl-carousel/assets/owl.carousel.min.css' %}">
-
+    {% block extra_js%}
+    {% endblock %}
     <!-- Template CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/reponsive.css' %}">
@@ -443,7 +444,9 @@
     <script src="{% static 'libs/slider-range/js/jquery.depend' %}Class-0.1.js"></script>
     <script src="{% static 'libs/slider-range/js/draggable-0.1.js' %}"></script>
     <script src="{% static 'libs/slider-range/js/jquery.slider.js' %}"></script>
-
+    {% block extra_js_2%}
+    
+    {% endblock %}
     <!-- Template JS -->
     <script src="{% static 'js/theme.js' %}"></script>
 </body>

@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'common',
     'pages',
     'blogs',
+    'user',
+    'products',
 ]
 
 MIDDLEWARE = [

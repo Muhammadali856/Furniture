@@ -1,6 +1,8 @@
+from django.contrib.auth.models import AbstractUser, Group, Permission
 from django.db import models
-from django.contrib.auth.models import AbstractUser
 
 class CustomUser(AbstractUser):
-    email = models.EmailField(unique=True)
-    phone_number = models.CharField(max_length=13, blank=True, null=True)
+    groups = models.ManyToManyField(Group, related_name='customuser_set', blank=True)
+    user_permissions = models.ManyToManyField(Permission, related_name='customuser_set', blank=True)
+
+    # Добавьте любые другие поля или методы, которые вам нужны
