@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-04 09:33+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\blogs\apps.py:7
+msgid "Blogs"
+msgstr ""
+
+#: .\blogs\models.py:31
+msgid "Title"
+msgstr ""
+
+#: .\blogs\models.py:32
+msgid "Created at"
+msgstr ""
+
+#: .\blogs\models.py:35
+msgid "blog"
+msgstr ""
+
+#: .\blogs\models.py:36
+msgid "blogs"
+msgstr ""
+
+#: .\templates\home3.html:161 .\templates\layouts\base.html:180
+msgid "LIVING ROOM"
+msgstr ""
+
+#: .\templates\home3.html:165
+msgid "Media"
+msgstr ""
+
+#: .\templates\home3.html:546
+msgid "Modern"
+msgstr ""
+
+#: .\templates\home3.html:546
+msgid "Designer"
+msgstr ""
+
+#: .\templates\home3.html:546
+msgid "Chair"
+msgstr ""
+
+#: .\templates\home3.html:555 .\templates\home3.html:566
+msgid "Creative"
+msgstr ""
+
+#: .\templates\home3.html:556 .\templates\home3.html:567
+msgid "Furniture"
+msgstr ""
+
+#: .\templates\home3.html:557 .\templates\home3.html:568
+msgid "Design"
+msgstr ""
+
+#: .\templates\home3.html:610
+msgid "Living Room"
+msgstr ""
+
+#: .\templates\home3.html:615 .\templates\home3.html:1425
+msgid "New Arrivals"
+msgstr ""
+
+#: .\templates\home3.html:618 .\templates\home3.html:1428
+msgid "Best Seller"
+msgstr ""
+
+#: .\templates\home3.html:621 .\templates\home3.html:1431
+msgid "Featured Product"
+msgstr ""
+
+#: .\templates\home3.html:1142
+msgid "Deal Of The Day"
+msgstr ""
+
+#: .\templates\home3.html:1143
+msgid "Hurry Up, The Same Time Is Not Extended"
+msgstr ""
+
+#: .\templates\home3.html:1420
+msgid "kitchen"
+msgstr ""
+
+#: .\templates\layouts\base.html:76
+msgid "WHO WE ARE"
+msgstr ""
+
+#: .\templates\layouts\base.html:80
+msgid "About Us"
+msgstr ""
+
+#: .\templates\layouts\base.html:83
+msgid "Reasons to shop"
+msgstr ""
+
+#: .\templates\layouts\base.html:86
+msgid "What our customers say"
+msgstr ""
+
+#: .\templates\layouts\base.html:89
+msgid "Meet the teaml"
+msgstr ""
+
+#: .\templates\layouts\base.html:92
+msgid "Contact our buyers"
+msgstr ""
+
+#: .\templates\layouts\base.html:95
+msgid "Cookies & privacy"
+msgstr ""
+
+#: .\templates\layouts\base.html:106
+msgid "CUSTOMER SERVICES"
+msgstr ""
+
+#: .\templates\layouts\base.html:110
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\layouts\base.html:113
+msgid "Help and advice"
+msgstr ""
+
+#: .\templates\layouts\base.html:116
+msgid "Delivery"
+msgstr ""
+
+#: .\templates\layouts\base.html:119
+msgid "Terms and conditions"
+msgstr ""
+
+#: .\templates\layouts\base.html:122
+msgid "Refund Policy"
+msgstr ""
+
+#: .\templates\layouts\base.html:125
+msgid "FAQs"
+msgstr ""
+
+#: .\templates\layouts\base.html:136
+msgid "CONTACT US"
+msgstr ""
+
+#: .\templates\layouts\base.html:142
+msgid "Showroom"
+msgstr ""
+
+#: .\templates\layouts\base.html:142
+msgid "123 Suspendis matti, Visaosang Building"
+msgstr ""
+
+#: .\templates\layouts\base.html:148
+msgid "Opening Hours:"
+msgstr ""
+
+#: .\templates\layouts\base.html:148
+msgid "08.00AM - 19.00"
+msgstr ""
+
+#: .\templates\layouts\base.html:182 .\templates\layouts\base.html:237
+#: .\templates\layouts\base.html:262 .\templates\layouts\base.html:308
+msgid "SIDE TABLE"
+msgstr ""
+
+#: .\templates\layouts\base.html:185 .\templates\layouts\base.html:240
+#: .\templates\layouts\base.html:265 .\templates\layouts\base.html:311
+msgid "FIREPLACE"
+msgstr ""
+
+#: .\templates\layouts\base.html:188 .\templates\layouts\base.html:268
+#: .\templates\layouts\base.html:314
+msgid "ARMCHAIR"
+msgstr ""
+
+#: .\templates\layouts\base.html:191 .\templates\layouts\base.html:271
+#: .\templates\layouts\base.html:317
+msgid "CUSHION"
+msgstr ""
+
+#: .\templates\layouts\base.html:194 .\templates\layouts\base.html:274
+#: .\templates\layouts\base.html:320
+msgid "COFFEE TABLE"
+msgstr ""
+
+#: .\templates\layouts\base.html:197 .\templates\layouts\base.html:277
+#: .\templates\layouts\base.html:323
+msgid "SHELF"
+msgstr ""
+
+#: .\templates\layouts\base.html:200 .\templates\layouts\base.html:280
+#: .\templates\layouts\base.html:326
+msgid "SOFA"
+msgstr ""
+
+#: .\templates\layouts\base.html:203 .\templates\layouts\base.html:283
+#: .\templates\layouts\base.html:329
+msgid "DRESSING TABLE"
+msgstr ""
+
+#: .\templates\layouts\base.html:206 .\templates\layouts\base.html:249
+#: .\templates\layouts\base.html:295 .\templates\layouts\base.html:332
+msgid "VIEW ALL"
+msgstr ""
+
+#: .\templates\layouts\base.html:217
+msgid "KITCHEN"
+msgstr ""
+
+#: .\templates\layouts\base.html:219 .\templates\layouts\base.html:286
+msgid "WINDOW CURTAIN"
+msgstr ""
+
+#: .\templates\layouts\base.html:222 .\templates\layouts\base.html:289
+msgid "CHANDELIER"
+msgstr ""
+
+#: .\templates\layouts\base.html:225 .\templates\layouts\base.html:292
+msgid "CEILING FAN"
+msgstr ""
+
+#: .\templates\layouts\base.html:228
+msgid "WARDROBE"
+msgstr ""
+
+#: .\templates\layouts\base.html:231
+msgid "FLOOR LAMP"
+msgstr ""
+
+#: .\templates\layouts\base.html:234
+msgid "VASE FLOWER"
+msgstr ""
+
+#: .\templates\layouts\base.html:243
+msgid "TABLE LAMP"
+msgstr ""
+
+#: .\templates\layouts\base.html:246
+msgid "ARMCHIRM"
+msgstr ""
+
+#: .\templates\layouts\base.html:260
+msgid "BEDROOM"
+msgstr ""
+
+#: .\templates\layouts\base.html:306
+msgid "BATHROOM"
+msgstr ""
+
+#: .\templates\layouts\base.html:346
+msgid "Templates Hub"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:32
+#: .\templates\layouts\base_header.html:396
+msgid "Search"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:70
+msgid "Total:"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:98
+msgid "Home"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:102
+msgid "Home Page"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:105
+msgid "Home Page 2"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:108
+msgid "Home Page 3"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:111
+msgid "Home Page 4"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:114
+msgid "Home Page 5"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:145
+msgid "Page"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:200
+msgid "Contact US"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:214
+#: .\templates\layouts\base_header.html:223
+msgid "My Account"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:229
+msgid "Log in"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:235
+msgid "Register Account"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:240
+#: .\templates\layouts\base_header.html:441
+msgid "Checkout"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:247
+msgid "My Wishlists"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:369
+msgid "FREE DELIVERY"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:370
+msgid "From $ 250"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:382
+msgid "MONEY BACK"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:383
+msgid "GUARANTEED"
+msgstr ""
+
+#: .\templates\layouts\base_header.html:440
+msgid "View Cart"
+msgstr ""

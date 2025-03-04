@@ -1,0 +1,363 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-04 09:33+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\blogs\apps.py:7
+msgid "Blogs"
+msgstr "Bloglar"
+
+#: .\blogs\models.py:31
+msgid "Title"
+msgstr "Sarlavha"
+
+#: .\blogs\models.py:32
+msgid "Created at"
+msgstr "Qo'shilgan vaqti"
+
+#: .\blogs\models.py:35
+msgid "blog"
+msgstr "blog"
+
+#: .\blogs\models.py:36
+msgid "blogs"
+msgstr "bloglar"
+
+#: .\templates\home3.html:161 .\templates\layouts\base.html:180
+msgid "LIVING ROOM"
+msgstr "MEHMONHONA"
+
+#: .\templates\home3.html:165
+msgid "Media"
+msgstr "Rasmlar"
+
+#: .\templates\home3.html:546
+msgid "Modern"
+msgstr "Zamonaviy"
+
+#: .\templates\home3.html:546
+msgid "Designer"
+msgstr "Dizayndagi"
+
+#: .\templates\home3.html:546
+msgid "Chair"
+msgstr "Stul"
+
+#: .\templates\home3.html:555 .\templates\home3.html:566
+#, fuzzy
+#| msgid "Created at"
+msgid "Creative"
+msgstr "Kreativ"
+
+#: .\templates\home3.html:556 .\templates\home3.html:567
+msgid "Furniture"
+msgstr "Mebel"
+
+#: .\templates\home3.html:557 .\templates\home3.html:568
+msgid "Design"
+msgstr "Dizayn"
+
+#: .\templates\home3.html:610
+msgid "Living Room"
+msgstr "Mehmonhona"
+
+#: .\templates\home3.html:615 .\templates\home3.html:1425
+msgid "New Arrivals"
+msgstr "Yangi Mahsulotlar"
+
+#: .\templates\home3.html:618 .\templates\home3.html:1428
+msgid "Best Seller"
+msgstr "Bestseller"
+
+#: .\templates\home3.html:621 .\templates\home3.html:1431
+msgid "Featured Product"
+msgstr "Tavsiya Etamiz"
+
+#: .\templates\home3.html:1142
+msgid "Deal Of The Day"
+msgstr "Kunning mahsuloti"
+
+#: .\templates\home3.html:1143
+msgid "Hurry Up, The Same Time Is Not Extended"
+msgstr "Shoshiling, Bu vaqt uzaymaydi"
+
+#: .\templates\home3.html:1420
+msgid "kitchen"
+msgstr "oshxona"
+
+#: .\templates\layouts\base.html:76
+msgid "WHO WE ARE"
+msgstr "BIZ KIMMIZ"
+
+#: .\templates\layouts\base.html:80
+msgid "About Us"
+msgstr "Biz Haqimizda"
+
+#: .\templates\layouts\base.html:83
+msgid "Reasons to shop"
+msgstr "Sotib olish uchun sabablar"
+
+#: .\templates\layouts\base.html:86
+msgid "What our customers say"
+msgstr "Mijozlarimiz fikrlari"
+
+#: .\templates\layouts\base.html:89
+msgid "Meet the team"
+msgstr "Bizning jamoa"
+
+#: .\templates\layouts\base.html:92
+msgid "Contact our buyers"
+msgstr "Mijozlarimiz bilan bog'laning"
+
+#: .\templates\layouts\base.html:95
+msgid "Cookies & privacy"
+msgstr "Cookie va Maxfiylik"
+
+#: .\templates\layouts\base.html:106
+msgid "CUSTOMER SERVICES"
+msgstr "MIJOZ HIZMATLARI"
+
+#: .\templates\layouts\base.html:110
+#, fuzzy
+#| msgid "Contact US"
+msgid "Contact Us"
+msgstr "ALOQA"
+
+#: .\templates\layouts\base.html:113
+msgid "Help and advice"
+msgstr "Yordam va Maslahat"
+
+#: .\templates\layouts\base.html:116
+msgid "Delivery"
+msgstr "Yetkazib Berish"
+
+#: .\templates\layouts\base.html:119
+msgid "Terms and conditions"
+msgstr "Bilmadim"
+
+#: .\templates\layouts\base.html:122
+msgid "Refund Policy"
+msgstr "Qaytarish shartlari"
+
+#: .\templates\layouts\base.html:125
+msgid "FAQs"
+msgstr "FAQs"
+
+#: .\templates\layouts\base.html:136
+msgid "CONTACT US"
+msgstr "BIZ BILAN BOG'LANING"
+
+#: .\templates\layouts\base.html:142
+msgid "Showroom"
+msgstr "Shouroom"
+
+#: .\templates\layouts\base.html:142
+msgid "123 Suspendis matti, Visaosang Building"
+msgstr "123 Suspendis matti, Visaosang Binosi"
+
+#: .\templates\layouts\base.html:148
+msgid "Opening Hours:"
+msgstr "Ochiq eshiklar vaqti:"
+
+#: .\templates\layouts\base.html:148
+msgid "08.00AM - 19.00"
+msgstr "08:00 - 19:00"
+
+#: .\templates\layouts\base.html:182 .\templates\layouts\base.html:237
+#: .\templates\layouts\base.html:262 .\templates\layouts\base.html:308
+msgid "SIDE TABLE"
+msgstr "ISH STOLI"
+
+#: .\templates\layouts\base.html:185 .\templates\layouts\base.html:240
+#: .\templates\layouts\base.html:265 .\templates\layouts\base.html:311
+msgid "FIREPLACE"
+msgstr "KAMIN"
+
+#: .\templates\layouts\base.html:188 .\templates\layouts\base.html:268
+#: .\templates\layouts\base.html:314
+msgid "ARMCHAIR"
+msgstr "YUMCHOQ KRESLO"
+
+#: .\templates\layouts\base.html:191 .\templates\layouts\base.html:271
+#: .\templates\layouts\base.html:317
+msgid "CUSHION"
+msgstr "YOSTIQ"
+
+#: .\templates\layouts\base.html:194 .\templates\layouts\base.html:274
+#: .\templates\layouts\base.html:320
+msgid "COFFEE TABLE"
+msgstr "KOFE STOLI"
+
+#: .\templates\layouts\base.html:197 .\templates\layouts\base.html:277
+#: .\templates\layouts\base.html:323
+msgid "SHELF"
+msgstr "POLKA"
+
+#: .\templates\layouts\base.html:200 .\templates\layouts\base.html:280
+#: .\templates\layouts\base.html:326
+msgid "SOFA"
+msgstr "DIVAN"
+
+#: .\templates\layouts\base.html:203 .\templates\layouts\base.html:283
+#: .\templates\layouts\base.html:329
+msgid "DRESSING TABLE"
+msgstr "KIYINISH STOLI"
+
+#: .\templates\layouts\base.html:206 .\templates\layouts\base.html:249
+#: .\templates\layouts\base.html:295 .\templates\layouts\base.html:332
+msgid "VIEW ALL"
+msgstr "HAMMASI"
+
+#: .\templates\layouts\base.html:217
+msgid "KITCHEN"
+msgstr "OSHXONA"
+
+#: .\templates\layouts\base.html:219 .\templates\layouts\base.html:286
+msgid "WINDOW CURTAIN"
+msgstr "PARDA"
+
+#: .\templates\layouts\base.html:222 .\templates\layouts\base.html:289
+msgid "CHANDELIER"
+msgstr "LYUSTRA"
+
+#: .\templates\layouts\base.html:225 .\templates\layouts\base.html:292
+msgid "CEILING FAN"
+msgstr "SHIFT VENTILYATOR"
+
+#: .\templates\layouts\base.html:228
+msgid "WARDROBE"
+msgstr "SHKAF"
+
+#: .\templates\layouts\base.html:231
+msgid "FLOOR LAMP"
+msgstr "KATTA LAMPA"
+
+#: .\templates\layouts\base.html:234
+msgid "VASE FLOWER"
+msgstr "VAZA"
+
+#: .\templates\layouts\base.html:243
+msgid "TABLE LAMP"
+msgstr "STOL LAMPASI"
+
+#: .\templates\layouts\base.html:246
+msgid "ARMCHIRM"
+msgstr "YUMCHOQ KRESLO"
+
+#: .\templates\layouts\base.html:260
+msgid "BEDROOM"
+msgstr "YOTOQXONA"
+
+#: .\templates\layouts\base.html:306
+msgid "BATHROOM"
+msgstr "SANUZEL"
+
+#: .\templates\layouts\base.html:346
+msgid "Templates Hub"
+msgstr "Templates Hub"
+
+#: .\templates\layouts\base_header.html:32
+#: .\templates\layouts\base_header.html:396
+msgid "Search"
+msgstr "Qidirish"
+
+#: .\templates\layouts\base_header.html:70
+msgid "Total:"
+msgstr "Jami:"
+
+#: .\templates\layouts\base_header.html:98
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: .\templates\layouts\base_header.html:102
+#, fuzzy
+#| msgid "Home"
+msgid "Home Page"
+msgstr "Bosh sahifa"
+
+#: .\templates\layouts\base_header.html:105
+msgid "Home Page 2"
+msgstr "Bosh Sahifa 2"
+
+#: .\templates\layouts\base_header.html:108
+msgid "Home Page 3"
+msgstr "Bosh Sahifa 3"
+
+#: .\templates\layouts\base_header.html:111
+msgid "Home Page 4"
+msgstr "Bo'sh Sahifa 4"
+
+#: .\templates\layouts\base_header.html:114
+msgid "Home Page 5"
+msgstr "Bosh Sahifa 5"
+
+#: .\templates\layouts\base_header.html:145
+msgid "Page"
+msgstr "Sahifa"
+
+#: .\templates\layouts\base_header.html:200
+msgid "Contact US"
+msgstr "ALOQA"
+
+#: .\templates\layouts\base_header.html:214
+#: .\templates\layouts\base_header.html:223
+msgid "My Account"
+msgstr "Mening Akkauntim"
+
+#: .\templates\layouts\base_header.html:229
+msgid "Log in"
+msgstr "Kirish"
+
+#: .\templates\layouts\base_header.html:235
+msgid "Register Account"
+msgstr "Ro'yhatdan o'tish"
+
+#: .\templates\layouts\base_header.html:240
+#: .\templates\layouts\base_header.html:441
+msgid "Checkout"
+msgstr "Tekshirish"
+
+#: .\templates\layouts\base_header.html:247
+msgid "My Wishlists"
+msgstr "Buyurtmalarim"
+
+#: .\templates\layouts\base_header.html:369
+msgid "FREE DELIVERY"
+msgstr "BEPUL YETKAZIB BERISH"
+
+#: .\templates\layouts\base_header.html:370
+msgid "From $ 250"
+msgstr "250$ dan"
+
+#: .\templates\layouts\base_header.html:382
+msgid "MONEY BACK"
+msgstr "PUL QAYTARISH"
+
+#: .\templates\layouts\base_header.html:383
+msgid "GUARANTEED"
+msgstr "KAFOLATI BOR"
+
+#: .\templates\layouts\base_header.html:440
+msgid "View Cart"
+msgstr "Buyurtmalarni ko'rish"
+
+#~ msgid "WHAT WE DO"
+#~ msgstr "NIMA QILAMIZ"
+
+#~ msgid "MEET OUR TEAM"
+#~ msgstr "BIZNING JAMOA"

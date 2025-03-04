@@ -5,3 +5,6 @@ def home_page_view(request):
 
 def contact_page_view(request):
     return render(request, template_name='pages/contact.html')
+
+def about_page_view(request):
+    return render(request, template_name='pages/about-us.html')
