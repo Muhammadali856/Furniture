@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 09:33+0500\n"
+"POT-Creation-Date: 2025-03-05 12:27+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,23 +22,31 @@ msgstr ""
 msgid "Blogs"
 msgstr ""
 
-#: .\blogs\models.py:31
-msgid "Title"
+#: .\blogs\models.py:10
+msgid "Parent"
 msgstr ""
 
-#: .\blogs\models.py:32
-msgid "Created at"
+#: .\blogs\models.py:51
+msgid "Comment"
 msgstr ""
 
-#: .\blogs\models.py:35
-msgid "blog"
+#: .\blogs\models.py:52
+msgid "User"
 msgstr ""
 
-#: .\blogs\models.py:36
-msgid "blogs"
+#: .\blogs\models.py:53
+msgid "Blog"
 msgstr ""
 
-#: .\templates\home3.html:161 .\templates\layouts\base.html:180
+#: .\blogs\models.py:60
+msgid "Blog comment"
+msgstr ""
+
+#: .\blogs\models.py:61
+msgid "Blog comments"
+msgstr ""
+
+#: .\templates\home3.html:161 .\templates\layouts\base.html:181
 msgid "LIVING ROOM"
 msgstr ""
 
@@ -98,172 +106,176 @@ msgstr ""
 msgid "kitchen"
 msgstr ""
 
-#: .\templates\layouts\base.html:76
+#: .\templates\home3.html:2041
+msgid "Newsletter"
+msgstr ""
+
+#: .\templates\layouts\base.html:77
 msgid "WHO WE ARE"
 msgstr ""
 
-#: .\templates\layouts\base.html:80
+#: .\templates\layouts\base.html:81
 msgid "About Us"
 msgstr ""
 
-#: .\templates\layouts\base.html:83
+#: .\templates\layouts\base.html:84
 msgid "Reasons to shop"
 msgstr ""
 
-#: .\templates\layouts\base.html:86
+#: .\templates\layouts\base.html:87
 msgid "What our customers say"
 msgstr ""
 
-#: .\templates\layouts\base.html:89
-msgid "Meet the teaml"
+#: .\templates\layouts\base.html:90
+msgid "Meet the team"
 msgstr ""
 
-#: .\templates\layouts\base.html:92
+#: .\templates\layouts\base.html:93
 msgid "Contact our buyers"
 msgstr ""
 
-#: .\templates\layouts\base.html:95
+#: .\templates\layouts\base.html:96
 msgid "Cookies & privacy"
 msgstr ""
 
-#: .\templates\layouts\base.html:106
+#: .\templates\layouts\base.html:107
 msgid "CUSTOMER SERVICES"
 msgstr ""
 
-#: .\templates\layouts\base.html:110
+#: .\templates\layouts\base.html:111
 msgid "Contact Us"
 msgstr ""
 
-#: .\templates\layouts\base.html:113
+#: .\templates\layouts\base.html:114
 msgid "Help and advice"
 msgstr ""
 
-#: .\templates\layouts\base.html:116
+#: .\templates\layouts\base.html:117
 msgid "Delivery"
 msgstr ""
 
-#: .\templates\layouts\base.html:119
+#: .\templates\layouts\base.html:120
 msgid "Terms and conditions"
 msgstr ""
 
-#: .\templates\layouts\base.html:122
+#: .\templates\layouts\base.html:123
 msgid "Refund Policy"
 msgstr ""
 
-#: .\templates\layouts\base.html:125
+#: .\templates\layouts\base.html:126
 msgid "FAQs"
 msgstr ""
 
-#: .\templates\layouts\base.html:136
+#: .\templates\layouts\base.html:137
 msgid "CONTACT US"
 msgstr ""
 
-#: .\templates\layouts\base.html:142
+#: .\templates\layouts\base.html:143
 msgid "Showroom"
 msgstr ""
 
-#: .\templates\layouts\base.html:142
+#: .\templates\layouts\base.html:143
 msgid "123 Suspendis matti, Visaosang Building"
 msgstr ""
 
-#: .\templates\layouts\base.html:148
+#: .\templates\layouts\base.html:149
 msgid "Opening Hours:"
 msgstr ""
 
-#: .\templates\layouts\base.html:148
+#: .\templates\layouts\base.html:149
 msgid "08.00AM - 19.00"
 msgstr ""
 
-#: .\templates\layouts\base.html:182 .\templates\layouts\base.html:237
-#: .\templates\layouts\base.html:262 .\templates\layouts\base.html:308
+#: .\templates\layouts\base.html:183 .\templates\layouts\base.html:238
+#: .\templates\layouts\base.html:263 .\templates\layouts\base.html:309
 msgid "SIDE TABLE"
 msgstr ""
 
-#: .\templates\layouts\base.html:185 .\templates\layouts\base.html:240
-#: .\templates\layouts\base.html:265 .\templates\layouts\base.html:311
+#: .\templates\layouts\base.html:186 .\templates\layouts\base.html:241
+#: .\templates\layouts\base.html:266 .\templates\layouts\base.html:312
 msgid "FIREPLACE"
 msgstr ""
 
-#: .\templates\layouts\base.html:188 .\templates\layouts\base.html:268
-#: .\templates\layouts\base.html:314
+#: .\templates\layouts\base.html:189 .\templates\layouts\base.html:269
+#: .\templates\layouts\base.html:315
 msgid "ARMCHAIR"
 msgstr ""
 
-#: .\templates\layouts\base.html:191 .\templates\layouts\base.html:271
-#: .\templates\layouts\base.html:317
+#: .\templates\layouts\base.html:192 .\templates\layouts\base.html:272
+#: .\templates\layouts\base.html:318
 msgid "CUSHION"
 msgstr ""
 
-#: .\templates\layouts\base.html:194 .\templates\layouts\base.html:274
-#: .\templates\layouts\base.html:320
+#: .\templates\layouts\base.html:195 .\templates\layouts\base.html:275
+#: .\templates\layouts\base.html:321
 msgid "COFFEE TABLE"
 msgstr ""
 
-#: .\templates\layouts\base.html:197 .\templates\layouts\base.html:277
-#: .\templates\layouts\base.html:323
+#: .\templates\layouts\base.html:198 .\templates\layouts\base.html:278
+#: .\templates\layouts\base.html:324
 msgid "SHELF"
 msgstr ""
 
-#: .\templates\layouts\base.html:200 .\templates\layouts\base.html:280
-#: .\templates\layouts\base.html:326
+#: .\templates\layouts\base.html:201 .\templates\layouts\base.html:281
+#: .\templates\layouts\base.html:327
 msgid "SOFA"
 msgstr ""
 
-#: .\templates\layouts\base.html:203 .\templates\layouts\base.html:283
-#: .\templates\layouts\base.html:329
+#: .\templates\layouts\base.html:204 .\templates\layouts\base.html:284
+#: .\templates\layouts\base.html:330
 msgid "DRESSING TABLE"
 msgstr ""
 
-#: .\templates\layouts\base.html:206 .\templates\layouts\base.html:249
-#: .\templates\layouts\base.html:295 .\templates\layouts\base.html:332
+#: .\templates\layouts\base.html:207 .\templates\layouts\base.html:250
+#: .\templates\layouts\base.html:296 .\templates\layouts\base.html:333
 msgid "VIEW ALL"
 msgstr ""
 
-#: .\templates\layouts\base.html:217
+#: .\templates\layouts\base.html:218
 msgid "KITCHEN"
 msgstr ""
 
-#: .\templates\layouts\base.html:219 .\templates\layouts\base.html:286
+#: .\templates\layouts\base.html:220 .\templates\layouts\base.html:287
 msgid "WINDOW CURTAIN"
 msgstr ""
 
-#: .\templates\layouts\base.html:222 .\templates\layouts\base.html:289
+#: .\templates\layouts\base.html:223 .\templates\layouts\base.html:290
 msgid "CHANDELIER"
 msgstr ""
 
-#: .\templates\layouts\base.html:225 .\templates\layouts\base.html:292
+#: .\templates\layouts\base.html:226 .\templates\layouts\base.html:293
 msgid "CEILING FAN"
 msgstr ""
 
-#: .\templates\layouts\base.html:228
+#: .\templates\layouts\base.html:229
 msgid "WARDROBE"
 msgstr ""
 
-#: .\templates\layouts\base.html:231
+#: .\templates\layouts\base.html:232
 msgid "FLOOR LAMP"
 msgstr ""
 
-#: .\templates\layouts\base.html:234
+#: .\templates\layouts\base.html:235
 msgid "VASE FLOWER"
 msgstr ""
 
-#: .\templates\layouts\base.html:243
+#: .\templates\layouts\base.html:244
 msgid "TABLE LAMP"
 msgstr ""
 
-#: .\templates\layouts\base.html:246
+#: .\templates\layouts\base.html:247
 msgid "ARMCHIRM"
 msgstr ""
 
-#: .\templates\layouts\base.html:260
+#: .\templates\layouts\base.html:261
 msgid "BEDROOM"
 msgstr ""
 
-#: .\templates\layouts\base.html:306
+#: .\templates\layouts\base.html:307
 msgid "BATHROOM"
 msgstr ""
 
-#: .\templates\layouts\base.html:346
+#: .\templates\layouts\base.html:347
 msgid "Templates Hub"
 msgstr ""
 
