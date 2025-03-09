@@ -1,61 +1,108 @@
+from django.contrib.auth import get_user_model
 from django.db import models
-from django.db.models.fields.related import ForeignKey
 from django.utils.translation import gettext_lazy as _
-from django.contrib.auth.models import User
+
+from common.models import BaseModel
+
+UserModel = get_user_model()
 
 
-
-class BlogCategoryModel(models.Model):
-    title = models.CharField(max_length=128, unique=True)
-    parent = ForeignKey('self', on_delete=models.PROTECT, verbose_name=_('Parent'),
-                        null=True, blank=True, 
-                        related_name='children')
-
-    def __str__(self):
-        return self.name
-    
-    class Meta:
-        verbose_name = 'category'
-        verbose_name_plural = 'categories'
-
-class BlogTagModel(models.Model):
-    title = models.CharField(max_length=128, unique=True)
-    parent = ForeignKey('self', on_delete=models.PROTECT, null=True, blank=True)
-    
-    def __str__(self):
-        return self.name
-
-    class Meta:
-        verbose_name = 'tag'
-        verbose_name_plural = 'tags'
-
-class BlogModel(models.Model):
-    title = models.CharField(max_length=128)
-    image1 = models.ImageField(upload_to='blogs', null=True, blank=True)
-    image2 = models.ImageField(upload_to='blogs', null=True, blank=True)
-    short_description = models.CharField(max_length=255, null=True, blank=True)
-    long_description = models.TextField(max_length=2048, null=True, blank=True)
-    
-    categories = models.ManyToManyField(BlogCategoryModel, related_name='blogs')
-    tags = models.ManyToManyField(BlogTagModel, related_name='blogs')
-
+class BlogCategoryModel(BaseModel):
+    title = models.CharField(max_length=128, verbose_name=_('title'))
+    parent = models.ForeignKey(
+        'self', on_delete=models.PROTECT,
+        null=True, blank=True,
+        related_name='children',
+        verbose_name=_('parent')
+    )
 
     def __str__(self):
         return self.title
-    
-    class Meta:
-        verbose_name = 'Blog'
-        verbose_name_plural = 'Blogs'
-        
-class BlogCommentModel(models.Model):
-    comment = models.CharField(max_length=128, verbose_name=_('Comment'))
-    user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name=_('User'), related_name='blog_comments')
-    blog = models.ForeignKey(BlogModel, on_delete=models.CASCADE, verbose_name=_('Blog'), related_name='comments')
 
+    class Meta:
+        verbose_name = _('blog category')
+        verbose_name_plural = _('blog categories')
+
+
+class BlogTagModel(BaseModel):
+    title = models.CharField(max_length=128, verbose_name=_('title'))
 
     def __str__(self):
-        return self.comment
+        return self.title
 
     class Meta:
-        verbose_name = _('Blog comment')
-        verbose_name_plural = _('Blog comments')
+        verbose_name = _('blog tag')
+        verbose_name_plural = _('blog tags')
+
+
+class BlogAuthorModel(BaseModel):
+    first_name = models.CharField(max_length=128, verbose_name=_('first_name'))
+    last_name = models.CharField(max_length=128, verbose_name=_('last_name'))
+    avatar = models.ImageField(upload_to='blogs/authors/', verbose_name=_('avatar'))
+
+    @property
+    def full_name(self):
+        return self.__repr__()
+
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}"
+
+    def __repr__(self):
+        return f"{self.first_name} {self.last_name}"
+
+    class Meta:
+        verbose_name = _('blog author')
+        verbose_name_plural = _('blog authors')
+
+
+class BlogModel(BaseModel):
+    image = models.ImageField(upload_to='blogs', verbose_name=_('image'))
+    title = models.CharField(max_length=128, verbose_name=_('title'))
+    description = models.TextField(verbose_name=_('description'))
+
+    authors = models.ManyToManyField(
+        BlogAuthorModel,
+        related_name='blogs',
+        verbose_name=_('authors')
+    )
+    categories = models.ManyToManyField(
+        BlogCategoryModel,
+        related_name='blogs',
+        verbose_name=_('categories')
+    )
+
+    tags = models.ManyToManyField(
+        BlogTagModel,
+        related_name='tags',
+        verbose_name=_('tags')
+    )
+
+    def __str__(self):
+        return self.title
+
+    class Meta:
+        verbose_name = _('blog')
+        verbose_name_plural = _('blogs')
+
+
+class BlogCommentModel(BaseModel):
+    comment = models.CharField(max_length=128, verbose_name=_('comment'))
+    user = models.ForeignKey(
+        UserModel,
+        on_delete=models.CASCADE,
+        related_name='blog_comments',
+        verbose_name=_('user')
+    )
+    blog = models.ForeignKey(
+        BlogModel,
+        on_delete=models.CASCADE,
+        related_name='comments',
+        verbose_name=_('blog')
+    )
+
+    def __str__(self):
+        return self.user.username
+
+    class Meta:
+        verbose_name = _('blog comment')
+        verbose_name_plural = _('blog comments')
