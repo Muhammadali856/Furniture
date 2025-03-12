@@ -1,5 +1,7 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
+{% load i18n %}
+{% block title %}Checkout{% endblock %}
 {% block body %}class="product-checkout checkout-cart"{% endblock %}
 {% block content %}
     <div id="checkout" class="main-content">
@@ -41,7 +43,7 @@
                                             <div class="tab-content">
                                                 <div class="tab-pane fade in active show" id="checkout-guest-form"
                                                      role="tabpanel">
-                                                    <form action="#" id="customer-form" class="js-customer-form"
+                                                    <form action="{% url 'orders:checkout' %}" id="customer-form" class="js-customer-form"
                                                           method="post">
                                                         {% csrf_token %}
                                                         <div>

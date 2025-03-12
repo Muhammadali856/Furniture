@@ -1,5 +1,7 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
+{% load i18n %}
+{% block title %}Detail{% endblock %}
 {% block body %}id="product-detail"{% endblock %}
 {% block content %}
     <div class="main-content">
@@ -42,15 +44,18 @@
                                             <div class="title-block">Categories</div>
                                             <div class="block-content">
                                                 <div class="cateTitle hasSubCategory open level1">
-                                                    <span class="arrow collapse-icons collapsed" data-toggle="collapse" data-target="#livingroom">
+                                                    <span class="arrow collapse-icons collapsed" data-toggle="collapse"
+                                                          data-target="#livingroom">
                                                         <i class="zmdi zmdi-minus"></i>
                                                         <i class="zmdi zmdi-plus"></i>
                                                     </span>
                                                     <a class="cateItem" href="#">Living Room</a>
-                                                    <div class="subCategory collapse" id="livingroom" aria-expanded="true" role="status">
+                                                    <div class="subCategory collapse" id="livingroom"
+                                                         aria-expanded="true" role="status">
                                                         <div class="cateTitle">
                                                             <a href="#" class="cateItem">Side Table</a>
-                                                            <div class="subCategory collapse" id="subCategory-fruits" aria-expanded="true" role="status">
+                                                            <div class="subCategory collapse" id="subCategory-fruits"
+                                                                 aria-expanded="true" role="status">
                                                                 <div class="cateTitle">
                                                                     <a href="#" class="cateItem">Side Table</a>
                                                                 </div>
@@ -95,7 +100,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="cateTitle hasSubCategory open level1">
-                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse" data-target="#bathroom">
+                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse"
+                                                          data-target="#bathroom">
                                                         <i class="zmdi zmdi-minus"></i>
                                                         <i class="zmdi zmdi-plus"></i>
                                                     </span>
@@ -119,12 +125,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="cateTitle hasSubCategory open level1">
-                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse" data-target="#diningroom">
+                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse"
+                                                          data-target="#diningroom">
                                                         <i class="zmdi zmdi-minus"></i>
                                                         <i class="zmdi zmdi-plus"></i>
                                                     </span>
                                                     <a class="cateItem" href="#">Dining Rooom</a>
-                                                    <div class="subCategory collapse" id="diningroom" aria-expanded="true" role="status">
+                                                    <div class="subCategory collapse" id="diningroom"
+                                                         aria-expanded="true" role="status">
                                                         <div class="cateTitle">
                                                             <a href="#" class="cateItem">DRY BREAD</a>
                                                         </div>
@@ -140,12 +148,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="cateTitle hasSubCategory open level1">
-                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse" data-target="#bedroom">
+                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse"
+                                                          data-target="#bedroom">
                                                         <i class="zmdi zmdi-minus"></i>
                                                         <i class="zmdi zmdi-plus"></i>
                                                     </span>
                                                     <a class="cateItem" href="#">BedRoom</a>
-                                                    <div class="subCategory collapse" id="bedroom" aria-expanded="true" role="status">
+                                                    <div class="subCategory collapse" id="bedroom" aria-expanded="true"
+                                                         role="status">
                                                         <div class="cateTitle">
                                                             <a href="#" class="cateItem">ORANGE JUICES</a>
                                                         </div>
@@ -159,12 +169,14 @@
                                                     </div>
                                                 </div>
                                                 <div class="cateTitle hasSubCategory open level1">
-                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse" data-target="#kitchen">
+                                                    <span class="arrow collapsed collapse-icons" data-toggle="collapse"
+                                                          data-target="#kitchen">
                                                         <i class="zmdi zmdi-minus"></i>
                                                         <i class="zmdi zmdi-plus"></i>
                                                     </span>
                                                     <a class="cateItem" href="#">Kitchen</a>
-                                                    <div class="subCategory collapse" id="kitchen" aria-expanded="true" role="status">
+                                                    <div class="subCategory collapse" id="kitchen" aria-expanded="true"
+                                                         role="status">
                                                         <div class="cateTitle">
                                                             <a href="#" class="cateItem">ORANGE JUICES</a>
                                                         </div>
@@ -191,14 +203,19 @@
                                                         <div class="product-miniature item-one first-item d-flex">
                                                             <div class="thumbnail-container border">
                                                                 <a href="product-detail.html">
-                                                                    <img class="img-fluid image-cover" src="{% static 'img/product/1.jpg' %}" alt="img">
-                                                                    <img class="img-fluid image-secondary" src="{% static 'img/product/22.jpg' %}" alt="img">
+                                                                    <img class="img-fluid image-cover"
+                                                                         src="{% static 'img/product/1.jpg' %}"
+                                                                         alt="img">
+                                                                    <img class="img-fluid image-secondary"
+                                                                         src="{% static 'img/product/22.jpg' %}"
+                                                                         alt="img">
                                                                 </a>
                                                             </div>
                                                             <div class="product-description">
                                                                 <div class="product-groups">
                                                                     <div class="product-title">
-                                                                        <a href="product-detail.html">Nulla et justo augue</a>
+                                                                        <a href="product-detail.html">Nulla et justo
+                                                                            augue</a>
                                                                     </div>
                                                                     <div class="rating">
                                                                         <div class="star-content">
@@ -222,14 +239,19 @@
                                                         <div class="product-miniature item-one first-item d-flex">
                                                             <div class="thumbnail-container border">
                                                                 <a href="product-detail.html">
-                                                                    <img class="img-fluid image-cover" src="{% static 'img/product/2.jpg' %}" alt="img">
-                                                                    <img class="img-fluid image-secondary" src="{% static 'img/product/11.jpg' %}" alt="img">
+                                                                    <img class="img-fluid image-cover"
+                                                                         src="{% static 'img/product/2.jpg' %}"
+                                                                         alt="img">
+                                                                    <img class="img-fluid image-secondary"
+                                                                         src="{% static 'img/product/11.jpg' %}"
+                                                                         alt="img">
                                                                 </a>
                                                             </div>
                                                             <div class="product-description">
                                                                 <div class="product-groups">
                                                                     <div class="product-title">
-                                                                        <a href="product-detail.html">Nulla et justo augue</a>
+                                                                        <a href="product-detail.html">Nulla et justo
+                                                                            augue</a>
                                                                     </div>
                                                                     <div class="rating">
                                                                         <div class="star-content">
@@ -253,14 +275,18 @@
                                                         <div class="product-miniature item-one first-item d-flex">
                                                             <div class="thumbnail-container border">
                                                                 <a href="product-detail.html">
-                                                                    <img class="img-fluid image-cover" src="{% static 'img/product/3.jpg' %}" alt="img">
-                                                                    <img class="img-fluid image-secondary" src="{% static 'img/product/14.jpg' %}" alt="img">
+                                                                    <img class="img-fluid image-cover"
+                                                                         src="{% static 'img/product/3.jpg' %}"
+                                                                         alt="img">
+                                                                    <img class="img-fluid image-secondary"
+                                                                         src="{% static 'img/product/14.jpg' %}"
+                                                                         alt="img">
                                                                 </a>
                                                             </div>
                                                             <div class="product-description">
                                                                 <div class="product-groups">
                                                                     <div class="product-title">
-                                                                        <a href="product-detail.html">Nulla et justo augue</a>
+                                                                        <a href="product-detail.html">{{ product.title }}</a>
                                                                     </div>
                                                                     <div class="rating">
                                                                         <div class="star-content">
@@ -273,7 +299,7 @@
                                                                     </div>
                                                                     <div class="product-group-price">
                                                                         <div class="product-price-and-shipping">
-                                                                            <span class="price">£20.08</span>
+                                                                            <span class="price">£{{ product.price }}</span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -292,49 +318,11 @@
                                             </div>
                                             <div class="block-content">
                                                 <ul class="listSidebarBlog list-unstyled">
+                                                    {% for tag in product.tags.all %}
                                                     <li>
-                                                        <a href="#" title="Show products matching tag Hot Trend">Hot Trend</a>
+                                                        <a href="" title="Show products matching tag Woman">{{ tag.title }}</a>
                                                     </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Jewelry">Jewelry</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="man.html" title="Show products matching tag Man">Man</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Party">Party</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag SamSung">SamSung</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Shirt Dresses">Shirt Dresses</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Shoes">Shoes</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Summer">Summer</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Sweaters">Sweaters</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Winter">Winter</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" title="Show products matching tag Woman">Woman</a>
-                                                    </li>
+                                                    {% endfor %}
                                                 </ul>
                                             </div>
                                         </div>
@@ -347,43 +335,28 @@
                                                     <div class="page-content" id="content">
                                                         <div class="images-container">
                                                             <div class="js-qv-mask mask tab-content border">
-                                                                <div id="item1" class="tab-pane fade active in show">
-                                                                    <img src="{% static 'img/product/1.jpg' %}" alt="img">
-                                                                </div>
-                                                                <div id="item2" class="tab-pane fade">
-                                                                    <img src="{% static 'img/product/2.jpg' %}" alt="img">
-                                                                </div>
-                                                                <div id="item3" class="tab-pane fade">
-                                                                    <img src="{% static 'img/product/3.jpg' %}" alt="img">
-                                                                </div>
-                                                                <div id="item4" class="tab-pane fade">
-                                                                    <img src="{% static 'img/product/5.jpg' %}" alt="img">
-                                                                </div>
-                                                                <div class="layer hidden-sm-down" data-toggle="modal" data-target="#product-modal">
+                                                                {% for image in product.images.all %}
+                                                                    <div id="item{{ forloop.counter }}"
+                                                                         class="tab-pane fade {% if forloop.counter == 1 %}active in show{% endif %}">
+                                                                        <img src="{{ image.image.url }}"
+                                                                             alt="img">
+                                                                    </div>
+                                                                {% endfor %}
+                                                                <div class="layer hidden-sm-down" data-toggle="modal"
+                                                                     data-target="#product-modal">
                                                                     <i class="fa fa-expand"></i>
                                                                 </div>
                                                             </div>
                                                             <ul class="product-tab nav nav-tabs d-flex">
-                                                                <li class="active col">
-                                                                    <a href="#item1" data-toggle="tab" aria-expanded="true" class="active show">
-                                                                        <img src="{% static 'img/product/1.jpg' %}" alt="img">
+                                                                {% for image in product.images.all %}
+                                                                <li class="col {% if forloop.counter == 1 %}active{% endif %}">
+                                                                    <a href="#item{{ forloop.counter }}" data-toggle="tab"
+                                                                       aria-expanded="true" {% if forloop.counter == 1 %}class="active show"{% endif %}>
+                                                                        <img src="{{ image.image.url }}"
+                                                                             alt="img">
                                                                     </a>
                                                                 </li>
-                                                                <li class="col">
-                                                                    <a href="#item2" data-toggle="tab">
-                                                                        <img src="{% static 'img/product/2.jpg' %}" alt="img">
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col">
-                                                                    <a href="#item3" data-toggle="tab">
-                                                                        <img src="{% static 'img/product/3.jpg' %}" alt="img">
-                                                                    </a>
-                                                                </li>
-                                                                <li class="col">
-                                                                    <a href="#item4" data-toggle="tab">
-                                                                        <img src="{% static 'img/product/5.jpg' %}" alt="img">
-                                                                    </a>
-                                                                </li>
+                                                                {% endfor %}
                                                             </ul>
                                                             <div class="modal fade" id="product-modal" role="dialog">
                                                                 <div class="modal-dialog">
@@ -396,38 +369,55 @@
                                                                                     <div>
                                                                                         <div class="images-container">
                                                                                             <div class="js-qv-mask mask tab-content">
-                                                                                                <div id="modal-item1" class="tab-pane fade active in show">
-                                                                                                    <img src="{% static 'img/product/1.jpg' %}" alt="img">
+                                                                                                <div id="modal-item1"
+                                                                                                     class="tab-pane fade active in show">
+                                                                                                    <img src="{% static 'img/product/1.jpg' %}"
+                                                                                                         alt="img">
                                                                                                 </div>
-                                                                                                <div id="modal-item2" class="tab-pane fade">
-                                                                                                    <img src="{% static 'img/product/2.jpg' %}" alt="img">
+                                                                                                <div id="modal-item2"
+                                                                                                     class="tab-pane fade">
+                                                                                                    <img src="{% static 'img/product/2.jpg' %}"
+                                                                                                         alt="img">
                                                                                                 </div>
-                                                                                                <div id="modal-item3" class="tab-pane fade">
-                                                                                                    <img src="{% static 'img/product/3.jpg' %}" alt="img">
+                                                                                                <div id="modal-item3"
+                                                                                                     class="tab-pane fade">
+                                                                                                    <img src="{% static 'img/product/3.jpg' %}"
+                                                                                                         alt="img">
                                                                                                 </div>
-                                                                                                <div id="modal-item4" class="tab-pane fade">
-                                                                                                    <img src="{% static 'img/product/5.jpg' %}" alt="img">
+                                                                                                <div id="modal-item4"
+                                                                                                     class="tab-pane fade">
+                                                                                                    <img src="{% static 'img/product/5.jpg' %}"
+                                                                                                         alt="img">
                                                                                                 </div>
                                                                                             </div>
                                                                                             <ul class="product-tab nav nav-tabs">
                                                                                                 <li class="active">
-                                                                                                    <a href="#modal-item1" data-toggle="tab" class=" active show">
-                                                                                                        <img src="{% static 'img/product/1.jpg' %}" alt="img">
+                                                                                                    <a href="#modal-item1"
+                                                                                                       data-toggle="tab"
+                                                                                                       class=" active show">
+                                                                                                        <img src="{% static 'img/product/1.jpg' %}"
+                                                                                                             alt="img">
                                                                                                     </a>
                                                                                                 </li>
                                                                                                 <li>
-                                                                                                    <a href="#modal-item2" data-toggle="tab">
-                                                                                                        <img src="{% static 'img/product/2.jpg' %}" alt="img">
+                                                                                                    <a href="#modal-item2"
+                                                                                                       data-toggle="tab">
+                                                                                                        <img src="{% static 'img/product/2.jpg' %}"
+                                                                                                             alt="img">
                                                                                                     </a>
                                                                                                 </li>
                                                                                                 <li>
-                                                                                                    <a href="#modal-item3" data-toggle="tab">
-                                                                                                        <img src="{% static 'img/product/3.jpg' %}" alt="img">
+                                                                                                    <a href="#modal-item3"
+                                                                                                       data-toggle="tab">
+                                                                                                        <img src="{% static 'img/product/3.jpg' %}"
+                                                                                                             alt="img">
                                                                                                     </a>
                                                                                                 </li>
                                                                                                 <li>
-                                                                                                    <a href="#modal-item4" data-toggle="tab">
-                                                                                                        <img src="{% static 'img/product/5.jpg' %}" alt="img">
+                                                                                                    <a href="#modal-item4"
+                                                                                                       data-toggle="tab">
+                                                                                                        <img src="{% static 'img/product/5.jpg' %}"
+                                                                                                             alt="img">
                                                                                                     </a>
                                                                                                 </li>
                                                                                             </ul>
@@ -449,10 +439,12 @@
                                                             <span class="float-right">
                                                                 <span class="availb">Availability: </span>
                                                                 <span class="check">
-                                                                    <i class="fa fa-check-square-o" aria-hidden="true"></i>IN STOCK</span>
+                                                                    <i class="fa fa-check-square-o"
+                                                                       aria-hidden="true"></i>IN STOCK</span>
                                                             </span>
                                                         </div>
-                                                        <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean lorem quis bibendum
+                                                        <p class="description">Proin gravida nibh vel velit auctor
+                                                            aliquet. Aenean lorem quis bibendum
                                                             auctor, nisi elit consequat etiam non auctor.</p>
                                                         <div class="option has-border d-lg-flex size-color">
                                                             <div class="size">
@@ -480,24 +472,32 @@
                                                                     <div class="input-group">
                                                                         <div class="quantity">
                                                                             <span class="control-label">QTY : </span>
-                                                                            <input type="text" name="qty" id="quantity_wanted" value="1" class="input-group form-control">
+                                                                            <input type="text" name="qty"
+                                                                                   id="quantity_wanted" value="1"
+                                                                                   class="input-group form-control">
 
                                                                             <span class="input-group-btn-vertical">
-                                                                                <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-up" type="button">
+                                                                                <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-up"
+                                                                                        type="button">
                                                                                     +
                                                                                 </button>
-                                                                                <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-down" type="button">
+                                                                                <button class="btn btn-touchspin js-touchspin bootstrap-touchspin-down"
+                                                                                        type="button">
                                                                                     -
                                                                                 </button>
                                                                             </span>
                                                                         </div>
                                                                         <span class="add">
-                                                                            <button class="btn btn-primary add-to-cart add-item" data-button-action="add-to-cart" type="submit">
-                                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                            <button class="btn btn-primary add-to-cart add-item"
+                                                                                    data-button-action="add-to-cart"
+                                                                                    type="submit">
+                                                                                <i class="fa fa-shopping-cart"
+                                                                                   aria-hidden="true"></i>
                                                                                 <span>Add to cart</span>
                                                                             </button>
                                                                             <a class="addToWishlist" href="#">
-                                                                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                                <i class="fa fa-heart"
+                                                                                   aria-hidden="true"></i>
                                                                             </a>
                                                                         </span>
                                                                     </div>
@@ -538,13 +538,15 @@
                                                             </div>
                                                             <div class="read after-has-border">
                                                                 <a href="#review">
-                                                                    <i class="fa fa-commenting-o color" aria-hidden="true"></i>
+                                                                    <i class="fa fa-commenting-o color"
+                                                                       aria-hidden="true"></i>
                                                                     <span>READ REVIEWS (3)</span>
                                                                 </a>
                                                             </div>
                                                             <div class="apen after-has-border">
                                                                 <a href="#review">
-                                                                    <i class="fa fa-pencil color" aria-hidden="true"></i>
+                                                                    <i class="fa fa-pencil color"
+                                                                       aria-hidden="true"></i>
                                                                     <span>WRITE A REVIEW</span>
                                                                 </a>
                                                             </div>
@@ -575,7 +577,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                             <div class="review">
                                                 <ul class="nav nav-tabs">
                                                     <li class="active">
@@ -588,21 +590,27 @@
                                                         <a data-toggle="tab" href="#review">Reviews (2)</a>
                                                     </li>
                                                 </ul>
-                                                
+
                                                 <div class="tab-content">
                                                     <div id="description" class="tab-pane fade in active show">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                                            do
+                                                            eiusmod tempor incididunt ut labore et dolore magna
+                                                            aliqua.Lorem
+                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                            eiusmod
                                                             tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                                            do
+                                                            eiusmod tempor incididunt ut labore et dolore magna
+                                                            aliqua.Lorem
+                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                            eiusmod
                                                             tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
                                                     </div>
-                                                    
+
                                                     <div id="review" class="tab-pane fade">
                                                         <div class="spr-form">
                                                             <div class="user-comment">
@@ -623,11 +631,15 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="spr-review-content">
-                                                                        <p class="spr-review-content-body">In feugiat venenatis enim, non finibus metus bibendum
-                                                                            eu. Proin massa justo, eleifend fermentum varius
+                                                                        <p class="spr-review-content-body">In feugiat
+                                                                            venenatis enim, non finibus metus bibendum
+                                                                            eu. Proin massa justo, eleifend fermentum
+                                                                            varius
                                                                             quis, semper gravida quam. Cras nec enim sed
-                                                                            lacus viverra luctus. Nunc quis accumsan mauris.
-                                                                            Aliquam fermentum sit amet est id scelerisque.
+                                                                            lacus viverra luctus. Nunc quis accumsan
+                                                                            mauris.
+                                                                            Aliquam fermentum sit amet est id
+                                                                            scelerisque.
                                                                             Nam porta risus metus.</p>
                                                                     </div>
                                                                 </div>
@@ -648,11 +660,15 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="spr-review-content">
-                                                                        <p class="spr-review-content-body">In feugiat venenatis enim, non finibus metus bibendum
-                                                                            eu. Proin massa justo, eleifend fermentum varius
+                                                                        <p class="spr-review-content-body">In feugiat
+                                                                            venenatis enim, non finibus metus bibendum
+                                                                            eu. Proin massa justo, eleifend fermentum
+                                                                            varius
                                                                             quis, semper gravida quam. Cras nec enim sed
-                                                                            lacus viverra luctus. Nunc quis accumsan mauris.
-                                                                            Aliquam fermentum sit amet est id scelerisque.
+                                                                            lacus viverra luctus. Nunc quis accumsan
+                                                                            mauris.
+                                                                            Aliquam fermentum sit amet est id
+                                                                            scelerisque.
                                                                             Nam porta risus metus.</p>
                                                                     </div>
                                                                 </div>
@@ -666,53 +682,80 @@
                                                                 <div class="spr-form-review-rating">
                                                                     <label class="spr-form-label">Your Rating</label>
                                                                     <fieldset class="ratings">
-                                                                        <input type="radio" id="star5" name="rating" value="5" />
-                                                                        <label class="full" for="star5" title="Awesome - 5 stars"></label>
-                                                                        <input type="radio" id="star4half" name="rating" value="4 and a half" />
-                                                                        <input type="radio" id="star4" name="rating" value="4" />
-                                                                        <label class="full" for="star4" title="Pretty good - 4 stars"></label>
-                                                                        <input type="radio" id="star3half" name="rating" value="3 and a half" />
-                                                                        <input type="radio" id="star3" name="rating" value="3" />
-                                                                        <label class="full" for="star3" title="Meh - 3 stars"></label>
-                                                                        <input type="radio" id="star2half" name="rating" value="2 and a half" />
-                                                                        <input type="radio" id="star2" name="rating" value="2" />
-                                                                        <label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-                                                                        <input type="radio" id="star1half" name="rating" value="1 and a half" />
-                                                                        <input type="radio" id="star1" name="rating" value="1" />
-                                                                        <label class="full" for="star1" title="Sucks big time - 1 star"></label>
-                                                                        <input type="radio" id="starhalf" name="rating" value="half" />
+                                                                        <input type="radio" id="star5" name="rating"
+                                                                               value="5"/>
+                                                                        <label class="full" for="star5"
+                                                                               title="Awesome - 5 stars"></label>
+                                                                        <input type="radio" id="star4half" name="rating"
+                                                                               value="4 and a half"/>
+                                                                        <input type="radio" id="star4" name="rating"
+                                                                               value="4"/>
+                                                                        <label class="full" for="star4"
+                                                                               title="Pretty good - 4 stars"></label>
+                                                                        <input type="radio" id="star3half" name="rating"
+                                                                               value="3 and a half"/>
+                                                                        <input type="radio" id="star3" name="rating"
+                                                                               value="3"/>
+                                                                        <label class="full" for="star3"
+                                                                               title="Meh - 3 stars"></label>
+                                                                        <input type="radio" id="star2half" name="rating"
+                                                                               value="2 and a half"/>
+                                                                        <input type="radio" id="star2" name="rating"
+                                                                               value="2"/>
+                                                                        <label class="full" for="star2"
+                                                                               title="Kinda bad - 2 stars"></label>
+                                                                        <input type="radio" id="star1half" name="rating"
+                                                                               value="1 and a half"/>
+                                                                        <input type="radio" id="star1" name="rating"
+                                                                               value="1"/>
+                                                                        <label class="full" for="star1"
+                                                                               title="Sucks big time - 1 star"></label>
+                                                                        <input type="radio" id="starhalf" name="rating"
+                                                                               value="half"/>
                                                                     </fieldset>
                                                                 </div>
                                                             </fieldset>
                                                             <fieldset class="spr-form-contact">
                                                                 <div class="spr-form-contact-name">
-                                                                    <input class="spr-form-input spr-form-input-text form-control" value="" placeholder="Enter your name">
+                                                                    <input class="spr-form-input spr-form-input-text form-control"
+                                                                           value="" placeholder="Enter your name">
                                                                 </div>
                                                                 <div class="spr-form-contact-email">
-                                                                    <input class="spr-form-input spr-form-input-email form-control" value="" placeholder="Enter your email">
+                                                                    <input class="spr-form-input spr-form-input-email form-control"
+                                                                           value="" placeholder="Enter your email">
                                                                 </div>
                                                             </fieldset>
                                                             <fieldset>
                                                                 <div class="spr-form-review-body">
                                                                     <div class="spr-form-input">
-                                                                        <textarea class="spr-form-input-textarea" rows="10" placeholder="Write your comments here"></textarea>
+                                                                        <textarea class="spr-form-input-textarea"
+                                                                                  rows="10"
+                                                                                  placeholder="Write your comments here"></textarea>
                                                                     </div>
                                                                 </div>
                                                             </fieldset>
                                                             <div class="submit">
-                                                                <input type="submit" name="addComment" id="submitComment" class="btn btn-default" value="Submit Review">
+                                                                <input type="submit" name="addComment"
+                                                                       id="submitComment" class="btn btn-default"
+                                                                       value="Submit Review">
                                                             </div>
                                                         </form>
                                                     </div>
                                                     <div id="tag" class="tab-pane fade in">
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                                            do
+                                                            eiusmod tempor incididunt ut labore et dolore magna
+                                                            aliqua.Lorem
+                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                            eiusmod
                                                             tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem
-                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                                                            do
+                                                            eiusmod tempor incididunt ut labore et dolore magna
+                                                            aliqua.Lorem
+                                                            ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                            eiusmod
                                                             tempor incididunt ut labore et dolore magna aliqua.
                                                         </p>
                                                     </div>
@@ -730,21 +773,29 @@
                                                             <div class="product-miniature js-product-miniature item-one first-item">
                                                                 <div class="thumbnail-container border border">
                                                                     <a href="product-detail.html">
-                                                                        <img class="img-fluid image-cover" src="{% static 'img/product/1.jpg' %}" alt="img">
-                                                                        <img class="img-fluid image-secondary" src="{% static 'img/product/22.jpg' %}" alt="img">
+                                                                        <img class="img-fluid image-cover"
+                                                                             src="{% static 'img/product/1.jpg' %}"
+                                                                             alt="img">
+                                                                        <img class="img-fluid image-secondary"
+                                                                             src="{% static 'img/product/22.jpg' %}"
+                                                                             alt="img">
                                                                     </a>
                                                                     <div class="highlighted-informations">
                                                                         <div class="variant-links">
-                                                                            <a href="#" class="color beige" title="Beige"></a>
-                                                                            <a href="#" class="color orange" title="Orange"></a>
-                                                                            <a href="#" class="color green" title="Green"></a>
+                                                                            <a href="#" class="color beige"
+                                                                               title="Beige"></a>
+                                                                            <a href="#" class="color orange"
+                                                                               title="Orange"></a>
+                                                                            <a href="#" class="color green"
+                                                                               title="Green"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="product-description">
                                                                     <div class="product-groups">
                                                                         <div class="product-title">
-                                                                            <a href="product-detail.html">Nulla et justo non augue</a>
+                                                                            <a href="product-detail.html">Nulla et justo
+                                                                                non augue</a>
                                                                         </div>
                                                                         <div class="rating">
                                                                             <div class="star-content">
@@ -762,15 +813,21 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="product-buttons d-flex justify-content-center">
-                                                                        <form action="#" method="post" class="formAddToCart">
-                                                                            <a class="add-to-cart" href="#" data-button-action="add-to-cart">
-                                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                        <form action="#" method="post"
+                                                                              class="formAddToCart">
+                                                                            <a class="add-to-cart" href="#"
+                                                                               data-button-action="add-to-cart">
+                                                                                <i class="fa fa-shopping-cart"
+                                                                                   aria-hidden="true"></i>
                                                                             </a>
                                                                         </form>
-                                                                        <a class="addToWishlist" href="#" data-rel="1" onclick="">
-                                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                        <a class="addToWishlist" href="#" data-rel="1"
+                                                                           onclick="">
+                                                                            <i class="fa fa-heart"
+                                                                               aria-hidden="true"></i>
                                                                         </a>
-                                                                        <a href="#" class="quick-view hidden-sm-down" data-link-action="quickview">
+                                                                        <a href="#" class="quick-view hidden-sm-down"
+                                                                           data-link-action="quickview">
                                                                             <i class="fa fa-eye" aria-hidden="true"></i>
                                                                         </a>
                                                                     </div>
@@ -781,21 +838,29 @@
                                                             <div class="product-miniature js-product-miniature item-one first-item">
                                                                 <div class="thumbnail-container border">
                                                                     <a href="product-detail.html">
-                                                                        <img class="img-fluid image-cover" src="{% static 'img/product/2.jpg' %}" alt="img">
-                                                                        <img class="img-fluid image-secondary" src="{% static 'img/product/11.jpg' %}" alt="img">
+                                                                        <img class="img-fluid image-cover"
+                                                                             src="{% static 'img/product/2.jpg' %}"
+                                                                             alt="img">
+                                                                        <img class="img-fluid image-secondary"
+                                                                             src="{% static 'img/product/11.jpg' %}"
+                                                                             alt="img">
                                                                     </a>
                                                                     <div class="highlighted-informations">
                                                                         <div class="variant-links">
-                                                                            <a href="#" class="color beige" title="Beige"></a>
-                                                                            <a href="#" class="color orange" title="Orange"></a>
-                                                                            <a href="#" class="color green" title="Green"></a>
+                                                                            <a href="#" class="color beige"
+                                                                               title="Beige"></a>
+                                                                            <a href="#" class="color orange"
+                                                                               title="Orange"></a>
+                                                                            <a href="#" class="color green"
+                                                                               title="Green"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="product-description">
                                                                     <div class="product-groups">
                                                                         <div class="product-title">
-                                                                            <a href="product-detail.html">Nulla et justo non augue</a>
+                                                                            <a href="product-detail.html">Nulla et justo
+                                                                                non augue</a>
                                                                         </div>
                                                                         <div class="rating">
                                                                             <div class="star-content">
@@ -813,15 +878,21 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="product-buttons d-flex justify-content-center">
-                                                                        <form action="#" method="post" class="formAddToCart">
-                                                                            <a class="add-to-cart" href="#" data-button-action="add-to-cart">
-                                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                        <form action="#" method="post"
+                                                                              class="formAddToCart">
+                                                                            <a class="add-to-cart" href="#"
+                                                                               data-button-action="add-to-cart">
+                                                                                <i class="fa fa-shopping-cart"
+                                                                                   aria-hidden="true"></i>
                                                                             </a>
                                                                         </form>
-                                                                        <a class="addToWishlist" href="#" data-rel="1" onclick="">
-                                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                        <a class="addToWishlist" href="#" data-rel="1"
+                                                                           onclick="">
+                                                                            <i class="fa fa-heart"
+                                                                               aria-hidden="true"></i>
                                                                         </a>
-                                                                        <a href="#" class="quick-view hidden-sm-down" data-link-action="quickview">
+                                                                        <a href="#" class="quick-view hidden-sm-down"
+                                                                           data-link-action="quickview">
                                                                             <i class="fa fa-eye" aria-hidden="true"></i>
                                                                         </a>
                                                                     </div>
@@ -832,21 +903,29 @@
                                                             <div class="product-miniature js-product-miniature item-one first-item">
                                                                 <div class="thumbnail-container border">
                                                                     <a href="product-detail.html">
-                                                                        <img class="img-fluid image-cover" src="{% static 'img/product/3.jpg' %}" alt="img">
-                                                                        <img class="img-fluid image-secondary" src="{% static 'img/product/14.jpg' %}" alt="img">
+                                                                        <img class="img-fluid image-cover"
+                                                                             src="{% static 'img/product/3.jpg' %}"
+                                                                             alt="img">
+                                                                        <img class="img-fluid image-secondary"
+                                                                             src="{% static 'img/product/14.jpg' %}"
+                                                                             alt="img">
                                                                     </a>
                                                                     <div class="highlighted-informations">
                                                                         <div class="variant-links">
-                                                                            <a href="#" class="color beige" title="Beige"></a>
-                                                                            <a href="#" class="color orange" title="Orange"></a>
-                                                                            <a href="#" class="color green" title="Green"></a>
+                                                                            <a href="#" class="color beige"
+                                                                               title="Beige"></a>
+                                                                            <a href="#" class="color orange"
+                                                                               title="Orange"></a>
+                                                                            <a href="#" class="color green"
+                                                                               title="Green"></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="product-description">
                                                                     <div class="product-groups">
                                                                         <div class="product-title">
-                                                                            <a href="product-detail.html">Nulla et justo non augue</a>
+                                                                            <a href="product-detail.html">Nulla et justo
+                                                                                non augue</a>
                                                                         </div>
                                                                         <div class="rating">
                                                                             <div class="star-content">
@@ -864,15 +943,21 @@
                                                                         </div>
                                                                     </div>
                                                                     <div class="product-buttons d-flex justify-content-center">
-                                                                        <form action="#" method="post" class="formAddToCart">
-                                                                            <a class="add-to-cart" href="#" data-button-action="add-to-cart">
-                                                                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                                                        <form action="#" method="post"
+                                                                              class="formAddToCart">
+                                                                            <a class="add-to-cart" href="#"
+                                                                               data-button-action="add-to-cart">
+                                                                                <i class="fa fa-shopping-cart"
+                                                                                   aria-hidden="true"></i>
                                                                             </a>
                                                                         </form>
-                                                                        <a class="addToWishlist" href="#" data-rel="1" onclick="">
-                                                                            <i class="fa fa-heart" aria-hidden="true"></i>
+                                                                        <a class="addToWishlist" href="#" data-rel="1"
+                                                                           onclick="">
+                                                                            <i class="fa fa-heart"
+                                                                               aria-hidden="true"></i>
                                                                         </a>
-                                                                        <a href="#" class="quick-view hidden-sm-down" data-link-action="quickview">
+                                                                        <a href="#" class="quick-view hidden-sm-down"
+                                                                           data-link-action="quickview">
                                                                             <i class="fa fa-eye" aria-hidden="true"></i>
                                                                         </a>
                                                                     </div>
